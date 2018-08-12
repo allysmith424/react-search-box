@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Helvetica;
+}
+
+.search-container {
+    position: absolute;
+    top: 15%;
+    width: 50%;
+}
+
+.results-container {
+    position: absolute;
+    top: 65%;
+    width: 50%;
+}
+
+.no-results,
+.no-suggestions {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}

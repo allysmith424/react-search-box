@@ -2,7 +2,7 @@
   "name": "react-search-box",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gallysmith424.github.io/react-search-box",
+  "homepage": "http://allysmith424.github.io/react-search-box",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

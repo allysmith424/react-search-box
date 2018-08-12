@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './search-suggestion.css';
 
-class SearchSuggestion extends Component {
-  render() {
-    return (
-      <div className="search-suggestion">
-        <span>
-          /
-        </span>
-        <strong></strong>
-      </div>
-    );
-  }
+const SearchSuggestion = props => {
+  return (
+    <div className="search-suggestion">
+      <span>
+        {props.suggestion.namespaceType}/
+      </span>
+      <strong>{props.suggestion.name}</strong>
+    </div>
+  );
 }
 
 export default SearchSuggestion;
